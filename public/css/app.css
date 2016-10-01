@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
 html, body {
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
 
 .quote-body {
   display: -webkit-box;
@@ -20,6 +21,12 @@ html, body {
       cursor: pointer; }
       .quote-body .main-quote .quote-next:hover {
         color: red; }
+
+.create-quote {
+  position: absolute;
+  bottom: 50px;
+  font-size: 18px;
+  left: calc(50% - 30px); }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)

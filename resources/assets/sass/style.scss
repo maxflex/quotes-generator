@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    overflow: hidden;
 }
 
 .quote-body {
@@ -21,4 +22,11 @@ html, body {
             }
         }
     }
+}
+
+.create-quote {
+    position: absolute;
+    bottom: 50px;
+    font-size: 18px;
+    left: calc(50% - 30px);
 }

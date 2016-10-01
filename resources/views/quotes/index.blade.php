@@ -5,9 +5,12 @@
 @section('body')
 <div class="quote-body">
     <div class="main-quote">
-        <div class="quote-text">@{{ quote.text }}</div>
-        <div class="quote-source">@{{ quote.source }}</div>
+        <blockquote style='width: 600px'>
+          <p>@{{ quote.text }}</p>
+          <small>@{{ quote.source }}</small>
+        </blockquote>
         <span ng-click='nextQuote()' class="quote-next glyphicon glyphicon-repeat"></span>
     </div>
 </div>
+<a class='create-quote' href="/quotes/create">создать</a>
 @stop

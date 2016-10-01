@@ -11,5 +11,7 @@ angular.module("Quotes", ['ngResource'])
 
     .controller 'CreateCtrl', ($scope, Quote) ->
         $scope.addQuote = ->
+            $scope.saving = true
             Quote.save $scope.quote, ->
                 $scope.quote = {}
+                window.location = '/'

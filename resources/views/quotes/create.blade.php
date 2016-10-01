@@ -15,7 +15,7 @@
             </div>
 
             <div class="form-group" style="margin-top: 10px">
-                <div class="btn btn-success" ng-click="addQuote()">добавить</div>
+                <div class="btn btn-success" ng-click="addQuote()" ng-disabled="saving">добавить</div>
             </div>
         </div>
         <div class="col-sm-4"></div>

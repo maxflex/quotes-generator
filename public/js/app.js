@@ -10,8 +10,10 @@
     };
   }).controller('CreateCtrl', function($scope, Quote) {
     return $scope.addQuote = function() {
+      $scope.saving = true;
       return Quote.save($scope.quote, function() {
-        return $scope.quote = {};
+        $scope.quote = {};
+        return window.location = '/';
       });
     };
   });
