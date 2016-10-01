@@ -12,7 +12,6 @@
     return $scope.addQuote = function() {
       $scope.saving = true;
       return Quote.save($scope.quote, function() {
-        $scope.quote = {};
         return window.location = '/';
       });
     };

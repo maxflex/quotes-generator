@@ -13,5 +13,4 @@ angular.module("Quotes", ['ngResource'])
         $scope.addQuote = ->
             $scope.saving = true
             Quote.save $scope.quote, ->
-                $scope.quote = {}
                 window.location = '/'
