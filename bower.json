@@ -1,0 +1,20 @@
+{
+  "name": "quote-generator",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Max Kolyadin <makcyxa-k@yandex.ru>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}

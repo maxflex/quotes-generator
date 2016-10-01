@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+}
+
+.quote-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    & .main-quote {
+        text-align: center;
+        & .quote-text {
+            font-size: 28px;
+        }
+        & .quote-next {
+            margin-top: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
